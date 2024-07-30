@@ -1,0 +1,36 @@
+{
+  "version" : "0.2.0",
+  "activeDialogId" : 0,
+  "uiState" : {
+    "sidePanelOpen" : true
+  },
+  "dialogs" : [ {
+    "name" : "你好",
+    "id" : 0,
+    "messages" : [ {
+      "type" : "USER",
+      "context" : {
+        "type" : "NONE"
+      },
+      "rawContent" : "你好",
+      "content" : {
+        "0" : {
+          "type" : "MARKDOWN",
+          "content" : "你好"
+        }
+      }
+    }, {
+      "type" : "AI",
+      "context" : {
+        "type" : "NONE"
+      },
+      "rawContent" : "Connect timed out",
+      "content" : {
+        "0" : {
+          "type" : "MARKDOWN",
+          "content" : "Connect timed out"
+        }
+      }
+    } ]
+  } ]
+}
